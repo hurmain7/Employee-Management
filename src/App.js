@@ -10,13 +10,7 @@ import Router from './Router';
 class App extends Component {
   componentDidMount() {
     const firebaseConfig = {
-    apiKey: 'AIzaSyBhYm-BtvrBErqUnFr0-ARPiLkPnlWp1yk',
-    authDomain: 'manager-e1471.firebaseapp.com',
-    databaseURL: 'https://manager-e1471.firebaseio.com',
-    projectId: 'manager-e1471',
-    storageBucket: '',
-    messagingSenderId: '513249060030',
-    appId: '1:513249060030:web:f4486de7e9c05888'
+    //firebase credentials
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
